@@ -1,0 +1,23 @@
+here we will put some code that help us in our overall development 
+
+
+# logging example 
+in exception handling create a example and see information is stored in log file 
+from logger import logging
+
+if __name__=="__main__":
+
+
+
+    try:
+        a = 1/0
+    except Exception as e:
+        logging.info("error occured in exception.py file")
+        raise Custom_exception_handling(e ,sys)
+
+
+
+
+
+
+<---------------------  ------------------>
